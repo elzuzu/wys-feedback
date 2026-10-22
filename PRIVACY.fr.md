@@ -21,7 +21,7 @@ Dans le **conteneur** de l'app, un dossier que macOS crée pour elle dans `~/Lib
 - un **index de recherche** (copie du texte, reconstruite à la demande) ;
 - vos **réglages** (langue de l'audio, modèle, dossiers surveillés), la **durée de transcription gratuite déjà utilisée** et des **signets** qui permettent de rouvrir les fichiers et dossiers que vous avez choisis.
 
-WYS ne copie pas vos fichiers audio ou vidéo importés : il garde un signet vers l'original (seule exception : un fichier que l'app Raccourcis remet sans emplacement est copié dans le conteneur le temps de la transcription, puis supprimé). Si vous déplacez ou supprimez l'original, la lecture n'est plus possible, le texte reste.
+WYS ne copie pas vos fichiers audio ou vidéo importés : il garde un signet vers l'original (seule exception : un fichier que l'app Raccourcis remet sans emplacement est copié dans le conteneur le temps de la transcription, puis supprimé). Si vous déplacez ou supprimez l'original, la lecture n'est plus possible, le texte reste. Pendant la transcription d'un fichier avec l'identification des locuteurs, WYS écrit une copie décodée temporaire de son audio dans le conteneur (environ 460 Mo pour deux heures) ; elle est supprimée à la fin de la transcription, et toute copie laissée par un plantage est supprimée au lancement suivant.
 
 ## Ce que WYS demande au système
 
