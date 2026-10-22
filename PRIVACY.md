@@ -16,7 +16,7 @@ WYS transcribes your audio and video files **on your Mac**. The app collects no 
 
 Inside the app's **container**, a folder that macOS creates for the app at `~/Library/Containers/com.elzuzu.wys/`:
 
-- your **transcripts** (original text, corrections, speakers, markers, alerts) and the **summaries and translations** you asked for;
+- your **transcripts** (original text, corrections, speakers, markers, alerts) and the **summaries and translations** you asked for, with the **names, terms and description** you typed for the second pass with context;
 - the **recordings** made with the voice recorder and by dictation, which belong to the app (a recording of a call or a meeting can contain other people's voices; it stays on this Mac, in the container);
 - a **search index** (a copy of the text, rebuilt on demand);
 - your **settings** (audio language, model, watched folders), the **amount of free transcription time used**, and **bookmarks** that let the app reopen the files and folders you chose.
@@ -32,7 +32,7 @@ WYS does not copy the audio or video files you import: it keeps a bookmark to th
 
 ## Processing
 
-Transcription and speaker identification are done by models **bundled in the app** and run on your Mac. Summaries and translations, when you ask for them, are done by Apple's language model built into macOS 26 or later (Apple Intelligence), which Apple documents as running on your Mac: WYS does not send your text to any remote artificial intelligence service. A summary or a translation is produced by a language model and can be wrong: check names, numbers and negations against the recording.
+Transcription and speaker identification are done by models **bundled in the app** and run on your Mac. Summaries, translations and the second pass with context (*Transcript › Review with Context…*), when you ask for them, are done by Apple's language model built into macOS 26 or later (Apple Intelligence), which Apple documents as running on your Mac: WYS does not send your text to any remote artificial intelligence service. A summary or a translation is produced by a language model and can be wrong: check names, numbers and negations against the recording. For the second pass, the names and terms you type and your short description are given to that on-device model together with the text of the transcript; they are saved with the transcription on your Mac, and nothing changes until you apply a suggestion.
 
 ## Purchases
 

@@ -16,7 +16,7 @@ WYS transcrit vos fichiers audio et vidéo **sur votre Mac**. L'app ne collecte 
 
 Dans le **conteneur** de l'app, un dossier que macOS crée pour elle dans `~/Library/Containers/com.elzuzu.wys/` :
 
-- vos **transcriptions** (texte d'origine, corrections, locuteurs, marqueurs, alertes) et les **résumés et traductions** que vous avez demandés ;
+- vos **transcriptions** (texte d'origine, corrections, locuteurs, marqueurs, alertes) et les **résumés et traductions** que vous avez demandés, avec les **noms, termes et description** saisis pour la seconde lecture avec le contexte ;
 - les **enregistrements** faits avec le dictaphone et par la dictée, qui appartiennent à l'app (l'enregistrement d'un appel ou d'une réunion peut contenir la voix d'autres personnes ; il reste sur ce Mac, dans le conteneur) ;
 - un **index de recherche** (copie du texte, reconstruite à la demande) ;
 - vos **réglages** (langue de l'audio, modèle, dossiers surveillés), la **durée de transcription gratuite déjà utilisée** et des **signets** qui permettent de rouvrir les fichiers et dossiers que vous avez choisis.
@@ -32,7 +32,7 @@ WYS ne copie pas vos fichiers audio ou vidéo importés : il garde un signet ver
 
 ## Traitement
 
-La transcription et l'identification des locuteurs sont faites par des modèles **livrés dans l'app** et exécutés sur votre Mac. Les résumés et les traductions, quand vous les demandez, sont faits par le modèle de langage d'Apple intégré à macOS 26 ou plus récent (Apple Intelligence), lui aussi exécuté sur votre Mac d'après la documentation d'Apple : WYS n'envoie votre texte à aucun service d'intelligence artificielle distant. Un résumé ou une traduction est produit par un modèle de langage et peut se tromper : vérifiez les noms, les nombres et les négations avec l'enregistrement.
+La transcription et l'identification des locuteurs sont faites par des modèles **livrés dans l'app** et exécutés sur votre Mac. Les résumés, les traductions et la seconde lecture avec le contexte (*Transcription › Relire avec le contexte…*), quand vous les demandez, sont faits par le modèle de langage d'Apple intégré à macOS 26 ou plus récent (Apple Intelligence), lui aussi exécuté sur votre Mac d'après la documentation d'Apple : WYS n'envoie votre texte à aucun service d'intelligence artificielle distant. Un résumé ou une traduction est produit par un modèle de langage et peut se tromper : vérifiez les noms, les nombres et les négations avec l'enregistrement. Pour la seconde lecture, les noms et termes que vous saisissez et votre courte description sont transmis à ce modèle sur l'appareil avec le texte de la transcription ; ils sont enregistrés avec la transcription sur votre Mac, et rien ne change tant que vous n'appliquez pas une proposition.
 
 ## Achats
 
