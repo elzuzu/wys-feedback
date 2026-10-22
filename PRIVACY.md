@@ -21,7 +21,7 @@ Inside the app's **container**, a folder that macOS creates for the app at `~/Li
 - a **search index** (a copy of the text, rebuilt on demand);
 - your **settings** (audio language, model, watched folders), the **amount of free transcription time used**, and **bookmarks** that let the app reopen the files and folders you chose.
 
-WYS does not copy the audio or video files you import: it keeps a bookmark to the original (one exception: a file that the Shortcuts app hands over without a location is copied into the container while it is transcribed, then deleted). If you move or delete the original, playback is no longer possible; the text stays. While a file is transcribed with speaker identification on, WYS writes a temporary decoded copy of its audio in the container (about 460 MB for two hours); it is deleted when the transcription ends, and any copy left by a crash is deleted at the next launch.
+WYS does not copy the audio or video files you import: it keeps a bookmark to the original (one exception: a file that the Shortcuts app hands over without a location is copied into the container while it is transcribed, then deleted). If you move or delete the original, playback is no longer possible; the text stays. While a file is transcribed with speaker identification on, WYS writes a temporary decoded copy of its audio in the container (about 460 MB for two hours); it is deleted when the transcription ends, and any copy left by a crash is deleted at the next launch. The Shortcuts actions of WYS (get the text of a transcription, open it, search) hand the text of transcriptions you choose to the Shortcuts app on your Mac, which you control; WYS itself sends nothing anywhere.
 
 ## What WYS asks of the system
 
