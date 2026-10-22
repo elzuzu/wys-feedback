@@ -12,7 +12,7 @@ No automatic transcription is perfect, especially with noise, strong accents or 
 
 ## Recording what your Mac plays
 
-In File → New Recording…, choose **System Audio** or **Both**. The first time, macOS asks to allow WYS to record system audio (System Settings → Privacy & Security → Screen & System Audio Recording). WYS records all the sound the Mac plays, whatever the app, only while you record, never the screen, and keeps the audio on your Mac. With **Both**, your voice and system audio go on two tracks: the transcript names your passages and tells the other voices apart. Headphones give the best separation. If the system audio is silent, check the permission above, then record again; microphone-only recording always works. **Tell the people you record**: recording others may require their consent, depending on the country.
+In File → New Recording…, choose **System Audio** or **Both**. The first time, macOS asks to allow WYS to record system audio (System Settings → Privacy & Security → Screen & System Audio Recording). WYS records all the sound the Mac plays, whatever the app, only while you record, never the screen, and keeps the audio on your Mac. With **Both**, your voice and system audio go on two tracks: the transcript names your passages and tells the other voices apart. Headphones give the best separation. If the system audio is silent, check the permission above, then record again; microphone-only recording does not depend on the system audio permission. **Tell the people you record**: recording others may require their consent, depending on the country.
 
 ## Summaries
 
