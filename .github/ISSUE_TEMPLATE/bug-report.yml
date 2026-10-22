@@ -1,0 +1,61 @@
+name: Bug report
+description: Report unexpected behavior in WYS (English or French).
+title: "[Bug]: "
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: "Reports and attachments are PUBLIC. Never attach a recording or a transcript (they can contain other people's voices). Remove personal paths, names and secrets. For security vulnerabilities, use private reporting instead."
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before reporting
+      options:
+        - label: I searched existing issues and reviewed my report for private information.
+          required: true
+  - type: input
+    id: versions
+    attributes:
+      label: WYS version and macOS version
+      description: WYS → About WYS, then Apple menu → About This Mac. Include your Mac model.
+    validations:
+      required: true
+  - type: dropdown
+    id: source
+    attributes:
+      label: What were you doing?
+      options:
+        - Transcribing an imported audio or video file
+        - Recording with the microphone
+        - Recording system audio (System Audio or Both)
+        - Summarizing or translating
+        - Exporting
+        - Purchase or restore
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe the audio (language, length, number of speakers) instead of attaching it.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the error message, if any.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Optional screenshots or additional context
+      description: Crop or redact anything personal. Do not attach recordings, transcripts or unreviewed logs.

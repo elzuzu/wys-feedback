@@ -1,0 +1,26 @@
+name: Improvement or feedback
+description: Suggest an improvement or share feedback (English or French).
+title: "[Feedback]: "
+labels: [enhancement, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: "Please search existing suggestions first. This report is public; do not include personal information or recordings."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to improve?
+      description: Describe the task and the difficulty you encounter.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested behavior
+      description: Describe the expected workflow and any alternatives you considered.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: WYS version (if applicable)
