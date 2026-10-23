@@ -25,3 +25,7 @@ The **Summarize** button in the transcript header uses the language model built 
 WYS is free to download and includes 60 minutes of transcription. A one-time in-app purchase unlocks unlimited transcription; there is no subscription. Apple handles purchases, billing and refunds. The Mac App Store edition is not yet on sale.
 
 See [privacy](PRIVACY.md) and [private security reporting](SECURITY.md).
+
+## Product-use information
+
+See the [versioned product-use terms](TERMS.md) for transcription or file-operation precautions and the explicit choices offered by compatible upcoming builds. Existing licenses and mandatory rights remain protected.

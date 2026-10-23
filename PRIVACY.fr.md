@@ -71,3 +71,7 @@ Toute modification de cette politique est consignée dans ce dépôt public, ave
 ## Contact
 
 Questions ou demandes relatives à la vie privée : **wys@elzuzu.ch.eu.org**. Bugs et suggestions : https://github.com/elzuzu/wys-feedback (les tickets sont publics : ne publiez ni enregistrement, ni transcription, ni information personnelle).
+
+## Décision sur les conditions au premier lancement
+
+Les versions qui affichent les conditions au premier lancement conservent la décision **uniquement sur votre Mac** : accord ou poursuite sous la licence existante, révision et empreintes des conditions intégrales, langue de ces conditions, date, version/build et édition de l’app, ainsi qu’une copie du texte affiché. Ouvrir ou fermer l’écran n’enregistre aucun accord. Continuer sous la licence existante est enregistré séparément et ne vaut jamais acceptation. Nous ne recevons pas ce reçu et ne le joignons pas automatiquement aux rapports. Il ne contient aucun compte client, identifiant matériel, enregistrement, nom de fichier ou chemin personnel. Vos propres sauvegardes peuvent l’inclure. Effacer les préférences/le conteneur de l’app supprime ce reçu et l’écran réapparaît. Ce n’est ni une authentification d’identité ni un consentement global aux traitements.
