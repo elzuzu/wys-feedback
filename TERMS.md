@@ -21,3 +21,7 @@ Your explicit choice is recorded locally as described in [Privacy](PRIVACY.md).
 No agreement record is transmitted to us. Reading this web page creates no
 agreement. These additional screens are for upcoming builds; versions already
 submitted to Apple are not changed by this page.
+
+## iPhone and iPad edition
+
+Supplemental product-use terms, revision `wys-use-ios-2026-10-23.1`: [English](terms/wys-use-ios-2026-10-23.1/en.txt), [French](terms/wys-use-ios-2026-10-23.1/fr.txt). The app offers express agreement or continuation under the existing license. Opening, buying or declining does not accept these additional terms. Mandatory rights and Apple’s applicable license remain protected.

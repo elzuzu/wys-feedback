@@ -29,3 +29,9 @@ See [privacy](PRIVACY.md) and [private security reporting](SECURITY.md).
 ## Product-use information
 
 See the [versioned product-use terms](TERMS.md) for transcription or file-operation precautions and the explicit choices offered by compatible upcoming builds. Existing licenses and mandatory rights remain protected.
+
+## iPhone and iPad
+
+Use Settings for the WYS version, audio language, purchase restoration, terms, privacy policy and notices. Import a file with the system Files picker. WYS keeps an app-owned copy; the original is not deleted. Keep WYS in the foreground while it transcribes. Work interrupted in the background resumes from the beginning on return. Under memory pressure, use Resume when resources are available. Physical-device memory, thermal and energy behavior is not yet qualified; no device-specific performance promise is made.
+
+If source audio is unavailable, an existing transcript can still be read, copied and exported. Keep independent recordings and exports; system backups depend on your settings. Do not delete/reinstall the app without saving work you need. Use Restore Purchases with the Apple Account that made the purchase. App Store transaction processing requires Apple's services, while file transcription runs locally.

@@ -1,8 +1,24 @@
 # WYS — Privacy Policy
 
-WYS is published under the name **Otter Appworks**. Its legal operator is **Alexandre Wyer**, a sole proprietor in Switzerland, who is also the controller for information voluntarily provided to support. This policy applies to the Mac App Store edition. [Version française](PRIVACY.fr.md).
+WYS is published under the name **Otter Appworks**. Its legal operator is **Alexandre Wyer**, a sole proprietor in Switzerland, who is also the controller for information voluntarily provided to support. This policy covers the Mac App Store, iPhone and iPad editions. Platform-specific behavior is identified below. [Version française](https://github.com/elzuzu/wys-feedback/blob/main/PRIVACY.fr.md).
 
 Last updated: 23 October 2026
+
+## iPhone and iPad edition
+
+WYS transcribes audio and video files locally with one Parakeet speech model bundled in the app. No recordings, transcripts, usage statistics or model-training data are sent to us. There is no account, advertising, analytics SDK, cloud transcription or downloaded speech model. This edition imports files; it does not record the microphone or system audio, identify speakers, or use Apple Intelligence.
+
+When you select a file in Files, the system or its file provider may first download it from a location you chose, such as iCloud Drive. WYS copies that selected file into its private Application Support/Imports folder so playback does not depend on the original remaining available. It also stores transcripts and timestamps, audio-language preferences, minimal local file bookmarks, the locally used trial allowance and the versioned terms decision. It does not access other files or require Photos, Contacts, Calendar, location or microphone permissions. Imported originals remain yours and are not deleted by WYS.
+
+These local user files remain eligible for system backups, including iCloud Backup if you enable it. Apple and your chosen file/backup provider handle those services under their own policies; WYS has no developer-operated cloud storage and does not initiate a separate upload. Keep independent copies. Deleting or reinstalling the app can remove its local library, imported copies, preferences, trial ledger and terms decision; a trial reset is not a synchronized cross-device allowance. Apple purchase entitlements are restored separately through StoreKit.
+
+You can copy a transcript or explicitly share/export it. WYS writes an export copy into its temporary folder and attempts to remove it when sharing completes or is cancelled; the receiving app/provider controls the copy you sent. Do not share confidential material unintentionally. Deleting a transcript also removes its app-owned imported copy when available; the source you selected in Files is left alone. Settings offers the terms, this policy, notices and support. The same App Store non-consumable product unlocks transcription; Apple processes billing and transaction verification, and WYS receives no payment identity or card details. A restore is requested only when you tap Restore Purchases.
+
+Support reports and contact details are handled as described in the support/contact sections below. Public GitHub issues are public: do not attach private recordings or transcripts. No attachment or diagnostic is sent automatically. The terms decision remains local and is never a blanket consent to processing.
+
+## Mac edition
+
+The following sections describe the Mac edition. Features such as voice recording, watched folders, Spotlight, contextual review and summaries are not offered by iPhone/iPad 1.0.
 
 ## In short
 

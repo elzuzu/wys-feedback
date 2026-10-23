@@ -1,8 +1,24 @@
 # WYS — Politique de confidentialité
 
-WYS est édité sous le nom **Otter Appworks**. Son exploitant légal est **Alexandre Wyer**, entrepreneur individuel en Suisse, également responsable des informations volontairement fournies à l’assistance. Cette politique s'applique à l'édition du Mac App Store. [English version](PRIVACY.md).
+WYS est édité sous le nom **Otter Appworks**. Son exploitant légal est **Alexandre Wyer**, entrepreneur individuel en Suisse, également responsable des informations volontairement fournies à l’assistance. Cette politique couvre les éditions Mac App Store, iPhone et iPad. Les particularités sont précisées par plateforme. [English version](https://github.com/elzuzu/wys-feedback/blob/main/PRIVACY.md).
 
 Dernière mise à jour : 23 octobre 2026
+
+## Édition iPhone et iPad
+
+WYS transcrit les fichiers audio et vidéo sur l’appareil avec un modèle Parakeet livré dans l’app. Aucun enregistrement, transcription, statistique d’usage ou donnée d’entraînement ne nous est envoyé. Il n’y a ni compte, publicité, SDK d’analyse, transcription cloud, ni téléchargement de modèle vocal. Cette édition importe les fichiers ; elle n’enregistre ni le micro ni les sons du système, n’identifie pas les locuteurs et n’utilise pas Apple Intelligence.
+
+Quand vous choisissez un fichier dans Fichiers, le système ou son fournisseur peut d’abord le télécharger depuis l’emplacement choisi, par exemple iCloud Drive. WYS copie ce fichier dans son dossier privé Application Support/Imports afin que la lecture ne dépende pas de l’original. Elle conserve aussi le texte et ses horodatages, la langue audio, des signets locaux minimaux, le temps d’essai utilisé et la décision versionnée sur les conditions. Elle ne lit pas les autres fichiers et ne demande pas d’accès aux photos, contacts, calendrier, localisation ou micro. Les originaux choisis dans Fichiers restent à vous et ne sont pas supprimés par WYS.
+
+Ces données locales peuvent faire partie des sauvegardes du système, y compris iCloud si vous l’activez. Apple et les fournisseurs de fichiers ou de sauvegarde choisis appliquent leurs propres politiques ; WYS n’exploite aucun stockage cloud et ne déclenche aucun envoi distinct. Gardez des copies indépendantes. Supprimer ou réinstaller l’app peut effacer bibliothèque locale, copies importées, réglages, compteur d’essai et décision sur les conditions ; l’essai n’est pas un quota synchronisé entre appareils. Les droits d’achat Apple se restaurent séparément par StoreKit.
+
+Vous pouvez copier le texte ou le partager/exporter explicitement. WYS écrit une copie d’export temporaire et tente de la retirer quand le partage se termine ou est annulé ; l’app ou le fournisseur destinataire contrôle la copie reçue. Ne partagez pas de contenu confidentiel par inadvertance. Supprimer une transcription retire aussi sa copie importée appartenant à WYS lorsqu’elle est disponible, sans toucher à l’original choisi dans Fichiers. Les Réglages donnent accès aux conditions, à cette politique, aux licences et à l’assistance. Le même achat App Store non consommable débloque la transcription ; Apple gère paiement et vérification, sans communiquer à WYS votre identité de paiement ou carte bancaire. La restauration n’est demandée que lorsque vous touchez « Restaurer les achats ».
+
+L’assistance et les coordonnées sont décrites dans les sections correspondantes plus bas. Les tickets GitHub sont publics : n’y joignez aucun enregistrement ou texte privé. Aucun fichier ni diagnostic n’est envoyé automatiquement. La décision sur les conditions reste locale et ne vaut jamais consentement global aux traitements.
+
+## Édition Mac
+
+Les sections suivantes décrivent l’édition Mac. Dictaphone, dossiers surveillés, Spotlight, relecture contextuelle et résumés ne sont pas proposés par la version iPhone/iPad 1.0.
 
 ## En bref
 
