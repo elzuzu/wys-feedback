@@ -1,6 +1,6 @@
 # WYS feedback
 
-Report bugs and suggest improvements for **WYS: What You Said**, the native Apple Silicon app for macOS 14 and later that transcribes audio and video **on your Mac**, tells the speakers apart, and summarizes them with the model built into macOS. Maintained by **Alex / [elzuzu](https://github.com/elzuzu)**.
+Report bugs and suggest improvements for **WYS: What You Said**, the native Apple Silicon app for macOS 14 and later that transcribes audio and video **on your Mac**, tells the speakers apart, and summarizes them with the model built into macOS. Published and maintained by **Otter Appworks**.
 
 This public repository contains user feedback and support documentation only. Application source code and app downloads are not hosted here. The Mac App Store edition is in preparation and is not yet on sale.
 

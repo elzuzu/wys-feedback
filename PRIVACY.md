@@ -1,6 +1,6 @@
 # WYS — Privacy Policy
 
-WYS is maintained by Alex / elzuzu. This policy applies to the Mac App Store edition. [Version française](PRIVACY.fr.md).
+WYS is published under the name **Otter Appworks**. Its legal operator is **Alexandre Wyer**, a sole proprietor in Switzerland, who is also the controller for information voluntarily provided to support. This policy applies to the Mac App Store edition. [Version française](PRIVACY.fr.md).
 
 Last updated: 23 October 2026
 
