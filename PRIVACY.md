@@ -2,7 +2,7 @@
 
 WYS is maintained by Alex / elzuzu. This policy applies to the Mac App Store edition. [Version française](PRIVACY.fr.md).
 
-Last updated: 22 October 2026
+Last updated: 23 October 2026
 
 ## In short
 
@@ -19,6 +19,7 @@ Inside the app's **container**, a folder that macOS creates for the app at `~/Li
 - your **transcripts** (original text, corrections, speakers, markers, alerts) and the **summaries and translations** you asked for, with the **names, terms and description** you typed for the second pass with context;
 - the **recordings** made with the voice recorder and by dictation, which belong to the app (a recording of a call or a meeting can contain other people's voices; it stays on this Mac, in the container);
 - a **search index** (a copy of the text, rebuilt on demand);
+- your **folders**, **favorite passages**, **text rules** and **summary prompts** (what you typed, kept as plain files), and the settings of **automatic export**, with a bookmark to the export folder you chose;
 - your **settings** (audio language, model, watched folders), the **amount of free transcription time used**, and **bookmarks** that let the app reopen the files and folders you chose.
 
 WYS does not copy the audio or video files you import: it keeps a bookmark to the original (one exception: a file that the Shortcuts app hands over without a location is copied into the container while it is transcribed, then deleted). If you move or delete the original, playback is no longer possible; the text stays. While a file is transcribed with speaker identification on, WYS writes a temporary decoded copy of its audio in the container (about 460 MB for two hours); it is deleted when the transcription ends, and any copy left by a crash is deleted at the next launch. The Shortcuts actions of WYS (get the text of a transcription, open it, search) hand the text of transcriptions you choose to the Shortcuts app on your Mac, which you control; WYS itself sends nothing anywhere.
@@ -34,6 +35,14 @@ WYS does not copy the audio or video files you import: it keeps a bookmark to th
 
 Transcription and speaker identification are done by models **bundled in the app** and run on your Mac. Summaries, translations and the suggestions about wrong words of the second pass with context (*Transcript › Review with Context…*), when you ask for them, are done by Apple's language model built into macOS 26 or later (Apple Intelligence), which Apple documents as running on your Mac: WYS does not send your text to any remote artificial intelligence service. A summary or a translation is produced by a language model and can be wrong: check names, numbers and negations against the recording. For the second pass, WYS checks names, terms and spellings itself, on your Mac, without any model; the names and terms you type and your short description are saved with the transcription on your Mac and, when the on-device model is available, given to it together with the text of the transcript to suggest fixes for wrong words. The second pass applies on its own only the corrections it can back up (your names and terms, spellings used elsewhere in the text), as a new version that you can review, refuse or undo; the original transcription is never overwritten, and suggestions about wrong words are applied only when you accept them.
 
+## Optional features that write outside the app
+
+All of these are off until you turn them on or choose a folder. Nothing in this section sends anything over the network.
+
+- **Spotlight** (*Settings › Spotlight*): the title and text of each finished transcript are given to the Spotlight index of your Mac (Apple's Core Spotlight, on this Mac only), so you can find a transcript from anywhere. Turning the option off removes all of them; deleting a transcript removes its entry.
+- **Export All…** and **Automatic Export** (*Settings › Automatic Export…*): WYS writes files (TXT, SRT, DOCX and the other formats you choose) only into the folder you chose, with a bookmark that lets it write there again. Existing files are never overwritten.
+- **Services** (*Services › Transcribe with WYS* in the Finder): the system hands WYS the audio or video files you selected, like a drop on the Dock icon.
+
 ## Purchases
 
 WYS is free to download and includes 60 minutes of free transcription. A one-time in-app purchase unlocks unlimited transcription. Purchases are handled by the App Store: WYS receives neither your payment identity nor your billing details. "Restore Purchases" is in the WYS menu.
@@ -42,7 +51,7 @@ WYS is free to download and includes 60 minutes of free transcription. A one-tim
 
 - **Delete a transcript** from the library at any time. If the transcript comes from a recording made with WYS, the recording is deleted with it (the app tells you before). Files you imported are never deleted by the app.
 - **Delete a summary or a translation** from the Summaries and Translations window.
-- **Stop watching a folder** by removing it in Settings. **Turn off the dictation shortcut** in Settings.
+- **Stop watching a folder** by removing it in Settings. **Turn off the dictation shortcut**, **Spotlight** and **Automatic Export** in Settings.
 - **Withdraw microphone access** at any time in System Settings › Privacy & Security › Microphone, and **system audio access** in System Settings › Privacy & Security › Screen & System Audio Recording.
 - **Delete everything**: delete your transcripts in the library, quit and delete the app, then delete its container folder (`~/Library/Containers/com.elzuzu.wys/`); macOS does not remove it automatically when an app is deleted.
 - WYS holds no account and no data about you outside your Mac, so there is nothing to request from us; nothing is shared with anyone.
